@@ -23,10 +23,13 @@ Dit houd in dat er meer verschillen/locaties zijn die gecodeerd worden.
 
 
 c) Maken ze gebruik van een lossless of lossy compressie?
-Lossless (https://en.wikipedia.org/wiki/Huffman_coding)
-Lossless compressie is als de gecomprimeerde data gedecomprimeerd word er geen gegevens verloren zijn gegaan.
-Lossy is wanneer de gecomprimeerde data wel gegevens verliest. Hierdoor is het logisch dat een comprimeer methode
-voor DNA sequenties lossless moet zijn omdat je geen belangrijke stukken uit de sequentie wilt verliezen.
+"The approach has been used for lossless compression, however it
+could be used also in lossy compression, for instance, by ignoring
+variants that are not medically relevant."
+
+Bij dit onderzoek maken ze gebruik van lossless compressie. De comprimeer methode kan ook lossy worden, dit door het
+achterwegen laten van medisch onrelevante varianten uit de sequentie.
+
 
 d) Tabel 6 (in het artikel) geeft een binaire codering van nucleotiden en indels. De opslag
 van de (de)codering is een belemmering voor de compressie ratio. Is dat nu ook het
