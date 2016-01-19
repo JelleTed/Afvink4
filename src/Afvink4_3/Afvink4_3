@@ -1,0 +1,28 @@
+a)      Wat is de waarschijnlijkheid van ieder symbool?
+C = 18/57 = 32%
+T = 14/57 = 25%
+G = 13/57 = 23%
+A = 12/57 = 20%
+
+b)      Construeer een Huffman Boom voor deze specifieke sequentie Toon de uiteindelijke boomstructuur.
+zie bijlage
+
+
+c)       Gegeven deze boom, wat zijn de codes voor ieder symbool?
+A – 00
+G – 01
+T – 10
+C – 11
+
+d)      Wat is de encoded versie van je DNA sequentie?
+Tatg ccaa tgca tttt tgcc cgca tgaa gcat gtag cgcg catg ccta cctg cacg c
+10011001 11110000 10011100 00000000 10011111 11011100 10010000 01110010 01100001 11011101 11001001 11111000 11111001 11001101 11
+
+e)      Is het Huffman algoritme efficiënt om DNA sequenties mee te comprimeren?
+ Aangezien DNA maar 4 letters gebruikt ga je in totaal 2 bits per letter gebruiken. Dus voor kleine stukken DNA is het wel efficiënt, maar op het moment dat je met miljoenen letters gaat werken, gaat het een stuk minder efficiënt zijn. Hiervoor moet er toch een verbetering op het standaard algoritme komen.
+
+f)       Ben je in staat om een efficiënter algoritme op te stellen voor DNA compressie?
+ Ja, op het moment dat je weet met wat voor soort DNA je te maken hebt, weet je vaak ook van welke letters de meeste repeats komen. Als er een hele rij repeats van C is kun je daar een aparte bitcombinatie aan geven waardoor je in totaal op een nog kleiner eindresultaat komt
+
+g)      Zou je verschillen kunnen ontdekken tussen coderende en niet coderende DNA sequenties in DNA met je efficiëntere algoritme?
+Ja, want de repeats die je daarmee opvangt zullen niet-coderende DNA sequenties zijn. Een rij C’s of een rij G’s heeft een kleine kans om voor een werkend eiwit te coderen.
